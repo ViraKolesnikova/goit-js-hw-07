@@ -1,0 +1,16 @@
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.image-item {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
