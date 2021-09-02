@@ -13,5 +13,5 @@ function onDecrementBtnClick(event) {
 }
 
 function onIncrementBtnClick(event) {
-  return counterValue.textContent = Number(counterValue.textContent) + 1;
+  return counterValue.textContent = Number.parseInt(counterValue.textContent) + 1;
 }
