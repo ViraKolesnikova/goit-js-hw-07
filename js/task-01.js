@@ -1,8 +1,6 @@
 const categoryItemEl = document.querySelectorAll('.item');
 console.log(`В списке ${categoryItemEl.length} категории.`);
 
-const itemsEl = document.querySelectorAll('.item > ul');
-const titleEl = document.querySelectorAll('h2');
 
 categoryItemEl.forEach(item => {
   const titleEl = item.querySelector('h2');
